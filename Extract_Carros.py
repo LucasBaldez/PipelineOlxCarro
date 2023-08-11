@@ -58,7 +58,7 @@ class ExtractCarro():
             
         #cria dataframe com os dados
         df_carros = pd.DataFrame(venda_carros)
-        df_carros.to_excel('Planilhas/carrosOLX.xlsx', index=False)
+        df_carros.to_excel('C:/PROJETOS/Projeto Python/PipelineOlxCarro/Planilhas/carrosOLX.xlsx', index=False)
            
                 
 
